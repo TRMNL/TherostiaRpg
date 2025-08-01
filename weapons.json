@@ -1,0 +1,107 @@
+{
+  "Great Axe": {
+    "bonus_damage": 4,
+    "element": "None",
+    "rarity": "common"
+  },
+  "Wooden Sword": {
+    "bonus_damage": 1,
+    "element": "None",
+    "rarity": "common"
+  },
+  "Fist": {
+    "bonus_damage": 0,
+    "element": "None",
+    "rarity": "common"
+  },
+  "Iron Sword": {
+    "bonus_damage": 2,
+    "element": "None",
+    "rarity": "common"
+  },
+  "Phoenix Claw": {
+    "bonus_damage": 7,
+    "element": "Fire",
+    "rarity": "epic"
+  },
+  "Flame Blade": {
+    "bonus_damage": 5,
+    "element": "Fire",
+    "rarity": "rare"
+  },
+  "Icefang Dagger": {
+    "bonus_damage": 3,
+    "element": "Ice",
+    "rarity": "uncommon"
+  },
+  "Thunder Hammer": {
+    "bonus_damage": 6,
+    "element": "Lightning",
+    "rarity": "rare"
+  },
+  "Venom Whip": {
+    "bonus_damage": 4,
+    "element": "Poison",
+    "rarity": "uncommon"
+  },
+  "Shadow Katana": {
+    "bonus_damage": 7,
+    "element": "Dark",
+    "rarity": "epic"
+  },
+  "Holy Mace": {
+    "bonus_damage": 5,
+    "element": "Light",
+    "rarity": "rare"
+  },
+  "Crystal Bow": {
+    "bonus_damage": 4,
+    "element": "Piercing",
+    "rarity": "uncommon"
+  },
+  "Doom Reaver": {
+    "bonus_damage": 10,
+    "element": "Dark",
+    "rarity": "legendary"
+  },
+  "Storm Piercer": {
+    "bonus_damage": 7,
+    "element": "Lightning",
+    "rarity": "epic"
+  },
+  "Rusty Dagger": {
+    "bonus_damage": 1,
+    "element": "None",
+    "rarity": "common"
+  },
+  "Club": {
+    "bonus_damage": 2,
+    "element": "None",
+    "rarity": "common"
+  },
+  "Throwing Knife": {
+    "bonus_damage": 2,
+    "element": "None",
+    "rarity": "uncommon"
+  },
+  "Broken Bottle": {
+    "bonus_damage": 1,
+    "element": "None",
+    "rarity": "common"
+  },
+  "Bone Sword": {
+    "bonus_damage": 2,
+    "element": "None",
+    "rarity": "common"
+  },
+  "Spectral Blade": {
+    "bonus_damage": 9,
+    "element": "Dark",
+    "rarity": "epic"
+  },
+  "Abyss Fang": {
+    "bonus_damage": 12,
+    "element": "Void",
+    "rarity": "legendary"
+  }
+}

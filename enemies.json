@@ -1,0 +1,204 @@
+{
+  "goblin": {
+    "lvlstart": 1,
+    "lvlcap": 10,
+    "Health": 9,
+    "MaxHP": 9,
+    "Damage": 2,
+    "SpawnChance": 0.15,
+    "XP": 6,
+    "LootTable": {
+      "Iron Sword": 0.2,
+      "Healing Potion": 0.5,
+      "Rusty Dagger": 0.2
+    }
+  },
+  "orc": {
+    "lvlstart": 5,
+    "lvlcap": 20,
+    "Health": 18,
+    "MaxHP": 18,
+    "Damage": 5,
+    "SpawnChance": 0.12,
+    "XP": 14,
+    "LootTable": {
+      "Iron Sword": 0.3,
+      "Healing Potion": 0.3,
+      "Great Axe": 0.2,
+      "Club": 0.2
+    }
+  },
+  "bandit": {
+    "lvlstart": 4,
+    "lvlcap": 18,
+    "Health": 15,
+    "MaxHP": 15,
+    "Damage": 5,
+    "SpawnChance": 0.1,
+    "XP": 12,
+    "LootTable": {
+      "Mega Heal": 0.1,
+      "Dagger": 0.2,
+      "Rusty Dagger": 0.2,
+      "Gold Pouch": 0.3,
+      "Club": 0.2
+    }
+  },
+  "rat": {
+    "lvlstart": 1,
+    "lvlcap": 5,
+    "Health": 4,
+    "MaxHP": 4,
+    "Damage": 1,
+    "SpawnChance": 0.2,
+    "XP": 3,
+    "LootTable": {
+      "Rat Tail": 0.3
+    }
+  },
+  "wild dog": {
+    "lvlstart": 2,
+    "lvlcap": 8,
+    "Health": 7,
+    "MaxHP": 7,
+    "Damage": 2,
+    "SpawnChance": 0.15,
+    "XP": 5,
+    "LootTable": {
+      "Fur Pelt": 0.4
+    }
+  },
+  "skeleton": {
+    "lvlstart": 4,
+    "lvlcap": 12,
+    "Health": 11,
+    "MaxHP": 11,
+    "Damage": 4,
+    "SpawnChance": 0.1,
+    "XP": 9,
+    "LootTable": {
+      "Bone Sword": 0.3,
+      "Healing Potion": 0.25,
+      "Rusty Dagger": 0.2
+    }
+  },
+  "thief": {
+    "lvlstart": 4,
+    "lvlcap": 14,
+    "Health": 11,
+    "MaxHP": 11,
+    "Damage": 4,
+    "SpawnChance": 0.08,
+    "XP": 10,
+    "LootTable": {
+      "Dagger": 0.3,
+      "Gold Coin": 0.6,
+      "Throwing Knife": 0.1
+    }
+  },
+  "zombie": {
+    "lvlstart": 5,
+    "lvlcap": 15,
+    "Health": 15,
+    "MaxHP": 15,
+    "Damage": 3,
+    "SpawnChance": 0.1,
+    "XP": 10,
+    "LootTable": {
+      "Rotten Flesh": 0.6,
+      "Healing Potion": 0.3
+    }
+  },
+  "snake": {
+    "lvlstart": 3,
+    "lvlcap": 10,
+    "Health": 5,
+    "MaxHP": 5,
+    "Damage": 2,
+    "SpawnChance": 0.12,
+    "XP": 5,
+    "LootTable": {
+      "Venom Gland": 0.4
+    }
+  },
+  "giant spider": {
+    "lvlstart": 6,
+    "lvlcap": 16,
+    "Health": 13,
+    "MaxHP": 13,
+    "Damage": 5,
+    "SpawnChance": 0.08,
+    "XP": 11,
+    "LootTable": {
+      "Silk": 0.5,
+      "Poison Fang": 0.3
+    }
+  },
+  "slime": {
+    "lvlstart": 2,
+    "lvlcap": 10,
+    "Health": 7,
+    "MaxHP": 7,
+    "Damage": 2,
+    "SpawnChance": 0.18,
+    "XP": 5,
+    "LootTable": {
+      "Slime Core": 0.5
+    }
+  },
+  "drunk villager": {
+    "lvlstart": 1,
+    "lvlcap": 6,
+    "Health": 8,
+    "MaxHP": 8,
+    "Damage": 1,
+    "SpawnChance": 0.05,
+    "XP": 5,
+    "LootTable": {
+      "Gold Coin": 0.3,
+      "Empty Bottle": 0.5,
+      "Broken Bottle": 0.2
+    }
+  },
+  "bat": {
+    "lvlstart": 1,
+    "lvlcap": 4,
+    "Health": 3,
+    "MaxHP": 3,
+    "Damage": 1,
+    "SpawnChance": 0.1,
+    "XP": 2,
+    "LootTable": {
+      "Bat Wing": 0.4
+    }
+  },
+  "angry chicken": {
+    "lvlstart": 1,
+    "lvlcap": 3,
+    "Health": 2,
+    "MaxHP": 2,
+    "Damage": 1,
+    "SpawnChance": 0.06,
+    "XP": 2,
+    "LootTable": {
+      "Feather": 0.6,
+      "Egg": 0.3
+    }
+  },
+  "lost adventurer": {
+    "lvlstart": 10,
+    "lvlcap": 25,
+    "Health": 20,
+    "MaxHP": 20,
+    "Damage": 6,
+    "SpawnChance": 0.05,
+    "XP": 15,
+    "LootTable": {
+      "Iron Sword": 0.3,
+      "Wooden Sword": 0.2,
+      "Dagger": 0.2,
+      "Gold Coin": 0.4,
+      "Healing Potion": 0.5
+    }
+  }
+}
