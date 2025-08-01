@@ -11,7 +11,7 @@ class UsableItem(Items):
         self.effect = effect
         self.amount = amount
 
-    def use(self, character):  # ← This must be inside the class!
+    def use(self, character): 
         if self.effect == "heal":
             character.health = min(character.health + self.amount, character.MaxHP)
             print(f"{character.name} heals for {self.amount} HP.")

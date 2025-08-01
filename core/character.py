@@ -1,3 +1,8 @@
+#TODO
+# Add Gold and implament later
+# Need Mini Boss and Boss 
+# Add NPC Template maybe even just use character 
+
 class CharacterTemplate:
     def __init__(self, name, level, health, MaxHP, damage, XP, MaxXP, minMana, maxMana ,weapon, inventory): 
         self.name = name
@@ -10,14 +15,14 @@ class CharacterTemplate:
         self.minMana = minMana
         self.maxMana = maxMana
         self.weapon = None
-        self.inventory = {}
+        self.inventory = {} 
 
     def attack(self, target):
         total_damage = self.damage + self.weapon.bonus_damage
         target.health -= total_damage
         print(f"{self.name} attacks {target.name} with a {self.weapon.name} for {total_damage} damage!")
         
-class EnemyTemplate:
+class EnemyTemplate: 
     def __init__(self, name, health, damage, MaxHP, lvlstart, lvlcap): 
         self.name = name
         self.health = health

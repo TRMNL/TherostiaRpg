@@ -23,7 +23,8 @@ def spawn_enemy(character):
     chosen = random.choices(names, weights=weights, k=1)[0]
     props = valid_enemies[chosen]
 
-    # === Dynamic Scaling
+    # I THINK I FUCKED THIS UP AHHHHHHHHHHHHHHHHHHHHHH 
+    # Improve enemys later todo
     level_percent = (character.level - props["lvlstart"]) / (props["lvlcap"] - props["lvlstart"])
     hp_scale = 1 + (0.5 * level_percent)
     dmg_scale = 1 + (0.6 * level_percent)
@@ -31,7 +32,7 @@ def spawn_enemy(character):
     base_hp = int(props["Health"] * hp_scale)
     base_dmg = int(props["Damage"] * dmg_scale)
 
-    # === Elite Variant
+    #=== enemies Elite versions
     is_elite = random.random() < 0.10
     name = f"Elite {chosen}" if is_elite else chosen
     if is_elite:
