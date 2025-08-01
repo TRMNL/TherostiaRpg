@@ -1,7 +1,7 @@
 # Therostia Quest
 
 Therostia Quest is a terminal-based RPG prototype written in Python. It features a simple combat loop, basic inventory management and a leveling system. The game data such as enemies, weapons and items are stored in JSON files making it easy to extend.
-
+![Therostia Main Menu](assets/welcomeScreen.png)
 ## How to Run
 
 1. Ensure you have **Python 3.10+** installed.
@@ -12,6 +12,10 @@ python main.py
 ```
 
 On Windows you may also run `run.bat`.
+
+![Therostia Main Menu](assets/gameShot.png)
+
+![Therostia Main Menu](assets/inventory.png)
 
 ## Current Features
 
