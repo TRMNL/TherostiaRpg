@@ -96,19 +96,6 @@
       "Throwing Knife": 0.1
     }
   },
-  "zombie": {
-    "lvlstart": 5,
-    "lvlcap": 15,
-    "Health": 15,
-    "MaxHP": 15,
-    "Damage": 3,
-    "SpawnChance": 0.1,
-    "XP": 10,
-    "LootTable": {
-      "Rotten Flesh": 0.6,
-      "Healing Potion": 0.3
-    }
-  },
   "snake": {
     "lvlstart": 3,
     "lvlcap": 10,
