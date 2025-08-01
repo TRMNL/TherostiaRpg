@@ -16,12 +16,18 @@ def xp_bar(current, max_xp, bar_length=20):
     bar = "█" * filled_length + "░" * (bar_length - filled_length)
     return f"[{bar}] {current}/{max_xp}"
 
+def manaBar(current, maxMana, bar_length=20):
+    filled_length = int(bar_length * current // maxMana)
+    bar = "█" * filled_length + "░" * (bar_length - filled_length)
+    return f"[{bar}] {current}/{maxMana}"
+
 def show_ui(enemy):
     print("\033[H\033[J", end="")
     print(f"{YELLOW} Therostia {RESET}")
     print("=" * 40)
     print(f"{CYAN}🧍 {character.name} [Lv {character.level}]{RESET}")
     print(f"{GREEN}❤️ HP: {hp_bar(character.health, character.MaxHP)}{RESET}")
+    print(f"{CYAN}🔷 Mana: {manaBar(character.minMana, character.maxMana)}{RESET}")
     print(f"✨ XP: {xp_bar(character.XP, character.MaxXP)}")
     print(f"🗡️ Weapon: {character.weapon.name if character.weapon else 'None'} | Damage: {character.damage + (character.weapon.bonus_damage if character.weapon else 0)}")
     print("-" * 40)

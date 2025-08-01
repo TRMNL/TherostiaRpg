@@ -1,5 +1,5 @@
 class CharacterTemplate:
-    def __init__(self, name, level, health, MaxHP, damage, XP, MaxXP, weapon, inventory): 
+    def __init__(self, name, level, health, MaxHP, damage, XP, MaxXP, minMana, maxMana ,weapon, inventory): 
         self.name = name
         self.level = level
         self.health = health
@@ -7,6 +7,8 @@ class CharacterTemplate:
         self.damage = damage
         self.XP = XP
         self.MaxXP = MaxXP
+        self.minMana = minMana
+        self.maxMana = maxMana
         self.weapon = None
         self.inventory = {}
 
