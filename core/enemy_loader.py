@@ -4,7 +4,7 @@ import random
 from core.character import EnemyTemplate
 
 def load_enemies():
-    with open("enemies.json", "r") as f:
+    with open("enemies\enemies.json", "r") as f:
         return json.load(f)
 
 def spawn_enemy(character):
@@ -25,7 +25,7 @@ def spawn_enemy(character):
 
     # I THINK I FUCKED THIS UP AHHHHHHHHHHHHHHHHHHHHHH 
     # Improve enemys later todo
-    level_percent = (character.level - props["lvlstart"]) / (props["lvlcap"] - props["lvlstart"])
+    level_percent = (character.level - props["lvlstart"]) / (props["lvlcap"] - props["lvlstart"]) 
     hp_scale = 1 + (0.5 * level_percent)
     dmg_scale = 1 + (0.6 * level_percent)
 
