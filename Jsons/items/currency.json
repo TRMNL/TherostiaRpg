@@ -1,0 +1,10 @@
+{
+  "Gold Coin": {
+    "value": 1,
+    "description": "A shiny gold coin. Currency used to trade."
+  },
+  "Gold Pouch": {
+    "value": 25,
+    "description": "A small pouch of assorted gold coins."
+  }
+}

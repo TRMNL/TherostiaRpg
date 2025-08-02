@@ -20,7 +20,7 @@ def load_all_items():
     all_items = {}
     item_types = ["potions", "crafting", "currency", "junk", "food"]
     for item_type in item_types:
-        with open(f"items/{item_type}.json", "r") as f:
+        with open(f"Jsons\items\{item_type}.json", "r") as f:
             data = json.load(f)
             for name, props in data.items():
                 props["type"] = item_type

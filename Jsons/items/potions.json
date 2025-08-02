@@ -1,0 +1,22 @@
+{
+  "Healing Potion": {
+    "type": "potions",
+    "effect": "heal",
+    "amount": 30
+  },
+    "Mega Heal": {
+    "type": "potions",
+    "effect": "heal",
+    "amount": 100
+    },
+  "Mana Potion": {
+    "type": "potions",
+    "effect": "mana",
+    "amount": 30
+  },
+  "Poison Vial": {
+    "type": "potions",
+    "effect": "poison",
+    "amount": 10
+  }
+}

@@ -9,7 +9,7 @@ class WeaponTemplate:
 
 import json
 
-def load_weapons(filepath="weapons\weapons.json"):
+def load_weapons(filepath="Jsons/weapons/weapons.json"):
     with open(filepath, "r") as f:
         data = json.load(f)
     return {name: WeaponTemplate(name, **props) for name, props in data.items()}

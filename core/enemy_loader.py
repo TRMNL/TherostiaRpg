@@ -4,7 +4,7 @@ import random
 from core.character import EnemyTemplate
 
 def load_enemies():
-    with open("enemies\enemies.json", "r") as f:
+    with open("Jsons/enemies/enemies.json", "r") as f:
         return json.load(f)
 
 def spawn_enemy(character):
