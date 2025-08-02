@@ -27,12 +27,13 @@ On Windows you may also run `run.bat`.
 - Inventory management with the ability to equip weapons and use healing potions
 - Loot system that reads drops from JSON configuration
 - Simple ASCII UI with health and experience bars
+- Load/Save has been implamented
 
 ## Planned Features
 
 The project is at an early stage. Upcoming features include:
 
-- Saving and loading progress
+- Saving and loading progress ✅
 - Crafting system
 - Armor equipment
 - Additional enemies including mini bosses and bosses
@@ -42,3 +43,4 @@ The project is at an early stage. Upcoming features include:
 - Shop system for buying and selling items
 
 Contributions and ideas are welcome!
+
