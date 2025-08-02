@@ -6,6 +6,7 @@ from core.UI.ui_overlay import show_ui
 from core.UI.ui_inventory import inventory
 from core.state import character, last_looted_items, all_weapons, all_items
 from core.Items import use_healing_potion
+from core.save_system import save_character
 
 def gameloop():
     while character.health > 0:
@@ -26,7 +27,8 @@ def gameloop():
                 case "3":
                     inventory()
                 case "4":
-                    return  # Exit to game menu
+                    
+                    return
                 case _:
                     print("Invalid choice.")
                     time.sleep(1)
