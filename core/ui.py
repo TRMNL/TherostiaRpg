@@ -26,7 +26,9 @@ def show_main_menu():
         print("1) New Game")
         print("2) Load Game")
         print("3) Quit")
+        
         choice = input("Choose an option: ")
+        
         if choice == "1":
             return start_character_creation()
         elif choice == "2":

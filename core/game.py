@@ -36,9 +36,6 @@ def gameloop():
         if character.health <= 0:
             print(f"\n💀 {character.name} has been defeated...")
             break
-
-        print(f"\n✅ The {enemy.name} has been slain! Victory is yours!")
-        print(f"🎯 You gained {xp_reward} XP!")
         character.XP += xp_reward
         level_up(character)
 

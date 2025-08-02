@@ -37,6 +37,7 @@ def load_character():
         print("❌ No save files found.")
         return None
 
+    print("=== SAVES ===")
     print("📂 Available Saves:")
     for i, f in enumerate(files):
         print(f"{i + 1}) {f}")
