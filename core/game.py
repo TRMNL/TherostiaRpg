@@ -6,7 +6,6 @@ from core.UI.ui_overlay import show_ui
 from core.UI.ui_inventory import inventory
 from core.state import character, last_looted_items, all_weapons, all_items
 from core.Items import use_healing_potion
-from core.save_system import save_character
 
 def gameloop():
     while character.health > 0:
@@ -39,6 +38,7 @@ def gameloop():
         character.XP += xp_reward
         level_up(character)
 
+        # after level_up(character)
         loot = roll_loot(loot_table)
         last_looted_items.clear()
 
@@ -51,3 +51,11 @@ def gameloop():
                     else:
                         character.inventory[item_name] = {"item": item, "count": 1}
                     last_looted_items.append(item_name)
+
+        if last_looted_items:
+            print("\n📦 You looted:", ", ".join(last_looted_items))
+        else:
+            print("\n📦 No items dropped.")
+
+        input("Press [Enter] to continue…")
+

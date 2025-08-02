@@ -29,6 +29,7 @@ def game_menu():
         elif choice == "4":
             should_save = input("Would you like to save before quitting? (y/n): ").lower()
             if should_save == "y":
+                
                 save_character(character)
                 return  # Exit to menu
         else:

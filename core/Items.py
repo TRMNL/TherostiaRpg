@@ -1,9 +1,9 @@
-
 import json
 
 class Items:
     def __init__(self, name):
         self.name = name
+
 
 class UsableItem(Items):
     def __init__(self, name, effect, amount):
@@ -15,12 +15,19 @@ class UsableItem(Items):
         if self.effect == "heal":
             character.health = min(character.health + self.amount, character.MaxHP)
             print(f"{character.name} heals for {self.amount} HP.")
-            
+        elif self.effect == "mana":
+            character.minMana = min(character.minMana + self.amount, character.maxMana)
+            print(f"{character.name} restores {self.amount} Mana.")
+        else:
+            print(f"❓ {character.name} used {self.name}, but nothing happened...")
+
+
 def load_all_items():
     all_items = {}
     item_types = ["potions", "crafting", "currency", "junk", "food"]
+
     for item_type in item_types:
-        with open(f"Jsons\items\{item_type}.json", "r") as f:
+        with open(f"Jsons/items/{item_type}.json", "r") as f:
             data = json.load(f)
             for name, props in data.items():
                 props["type"] = item_type

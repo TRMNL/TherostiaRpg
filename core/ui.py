@@ -36,7 +36,7 @@ def show_main_menu():
             if loaded:
                 set_character(loaded)
                 input("✅ Save loaded. Press Enter to continue...")
-                return  # goes to gameloop()
+                return # returns to game loop
         elif choice == "3":
             exit()
         else:
