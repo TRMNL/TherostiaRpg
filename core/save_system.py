@@ -6,7 +6,7 @@ from core.state import character, set_character
 from core.Items import load_all_items, UsableItem, Items
 from core.load_weapons import load_weapons
 
-SAVE_DIR = "Therostia Saves"
+SAVE_DIR = "Therostia_Saves"
 
 # oad all item and weapon templates from JSON
 all_items = load_all_items()
